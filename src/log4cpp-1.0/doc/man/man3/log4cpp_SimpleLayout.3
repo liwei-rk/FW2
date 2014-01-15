@@ -1,0 +1,53 @@
+.TH "log4cpp::SimpleLayout" 3 "3 Oct 2012" "Version 1.0" "log4cpp" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+log4cpp::SimpleLayout \- \fBBasicLayout\fP is a simple fixed format \fBLayout\fP implementation.  
+
+.PP
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <SimpleLayout.hh>\fP
+.PP
+Inherits \fBlog4cpp::Layout\fP.
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSimpleLayout\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~SimpleLayout\fP ()"
+.br
+.ti -1c
+.RI "virtual std::string \fBformat\fP (const \fBLoggingEvent\fP &event)"
+.br
+.RI "\fIFormats the \fBLoggingEvent\fP in \fBSimpleLayout\fP style:
+.br
+ 'priority - message'. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBBasicLayout\fP is a simple fixed format \fBLayout\fP implementation. 
+.PP
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "log4cpp::SimpleLayout::SimpleLayout ()"
+.PP
+.SS "log4cpp::SimpleLayout::~SimpleLayout ()\fC [virtual]\fP"
+.PP
+.SH "Member Function Documentation"
+.PP 
+.SS "std::string log4cpp::SimpleLayout::format (const \fBLoggingEvent\fP & event)\fC [virtual]\fP"
+.PP
+Formats the \fBLoggingEvent\fP in \fBSimpleLayout\fP style:
+.br
+ 'priority - message'. 
+.PP
+Implements \fBlog4cpp::Layout\fP.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for log4cpp from the source code.

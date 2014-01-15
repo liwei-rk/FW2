@@ -1,0 +1,6 @@
+*.tar.gz
+*.o
+*.so
+*.a
+*.la
+jsoncpp-src-0.6.0-rc2/

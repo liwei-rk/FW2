@@ -1,0 +1,4 @@
+[Thu Apr 18 22:37:34 2013  INFO][libcachetube.so] libcachetube.so add server: 10.1.11.82:60003 10.1.11.83:60003 10.1.11.84:60003 
+[Thu Apr 18 22:37:34 2013  INFO][libcachetube.so] libcachetube.so add server: 10.1.11.82:60003 10.1.11.83:60003 10.1.11.84:60003 
+[Thu Apr 18 22:37:34 2013  INFO][libcachetube.so] Prepare Message: {key1:value1,key2:value2}
+[Thu Apr 18 22:37:37 2013  INFO][libcachetube.so] Prepare Message: {key1:value1,key2:value2}

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client
+END
+test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/test.cpp
+END
+client.conf
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/client.conf
+END
+testr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/testr.cpp
+END
+CacheTubeService.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/CacheTubeService.thrift
+END
+testw_m.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/testw_m.cpp
+END
+CacheTube.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/CacheTube.cpp
+END
+testw.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/testw.cpp
+END
+Thread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/Thread.cpp
+END
+CacheTube.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/CacheTube.h
+END
+CacheTubeService_server.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/CacheTubeService_server.cpp
+END
+testwt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/testwt.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/Makefile
+END
+Thread.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/Thread.h
+END
+testr_m.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/testr_m.cpp
+END

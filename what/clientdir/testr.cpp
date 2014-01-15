@@ -1,0 +1,54 @@
+
+#include "CacheTube.h"
+#include <iostream>
+#include <fstream>
+namespace CacheTube {
+	extern "C"	int main( int argc, char * argv[] )
+	{
+		Error_Info e_info;
+		CCacheTube cacheTube;
+		::std::string strConfPath = "./client.conf";
+		::std::string strTopic = "topic1";
+		::std::vector< Message > v_msgs;
+		::std::vector< Message >::iterator iter;
+		e_info = cacheTube.Init( strConfPath );
+		if ( kErrCode_OK != e_info.code ) {
+			::std::cout<<" error code = "<<e_info.code<<" description = "<<e_info.description<<::std::endl;
+			return -1;
+		}
+		::std::cout<<" Init OK! "<<::std::endl;
+		::std::ofstream out( "./clientr.out" ); 
+		uint32_t  uCounter_Get = 0;	
+		while ( true ) {
+			v_msgs.clear();
+			e_info = cacheTube.Get( strTopic, v_msgs );
+			if ( kErrCode_OK != e_info.code ) {
+				::std::cout<<" error code = "<<e_info.code<<" description = "<<e_info.description<<::std::endl;
+				out.close();
+				return -1;
+			}
+			try {
+				for ( iter = v_msgs.begin(); iter != v_msgs.end(); ++iter ) {
+					out<<iter->queue_name<<" "<<iter->uid<<" "<<iter->srcip<<" "<<iter->created_time<<" "<<iter->content<<::std::endl;
+				}
+			} catch ( ... ) {
+				::std::cout<<"write file exception"<<::std::endl;
+				out.close();
+				return -1;	
+			}
+			uCounter_Get++;
+			if ( uCounter_Get%50 == 0 ) {
+				::std::cout<<" Get: "<< uCounter_Get <<::std::endl;
+			}	
+		}
+		out.close();
+		e_info = cacheTube.Destroy();
+		if ( kErrCode_OK != e_info.code ) {
+			::std::cout<<" error code = "<<e_info.code<<" description = "<<e_info.description<<::std::endl;
+			return -1;
+		}
+		::std::cout<<" Destroy OK! "<<::std::endl;
+		return 0;
+	}
+}
+

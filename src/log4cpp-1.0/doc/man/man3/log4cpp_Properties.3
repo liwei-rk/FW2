@@ -1,0 +1,67 @@
+.TH "log4cpp::Properties" 3 "3 Oct 2012" "Version 1.0" "log4cpp" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+log4cpp::Properties \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <Properties.hh>\fP
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBProperties\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~Properties\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBload\fP (std::istream &in)"
+.br
+.ti -1c
+.RI "virtual void \fBsave\fP (std::ostream &out)"
+.br
+.ti -1c
+.RI "virtual int \fBgetInt\fP (const std::string &property, int defaultValue)"
+.br
+.ti -1c
+.RI "virtual bool \fBgetBool\fP (const std::string &property, bool defaultValue)"
+.br
+.ti -1c
+.RI "virtual std::string \fBgetString\fP (const std::string &property, const char *defaultValue)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fB_substituteVariables\fP (std::string &value)"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "log4cpp::Properties::Properties ()"
+.PP
+.SS "log4cpp::Properties::~Properties ()\fC [virtual]\fP"
+.PP
+.SH "Member Function Documentation"
+.PP 
+.SS "void log4cpp::Properties::_substituteVariables (std::string & value)\fC [protected, virtual]\fP"
+.PP
+.SS "bool log4cpp::Properties::getBool (const std::string & property, bool defaultValue)\fC [virtual]\fP"
+.PP
+.SS "int log4cpp::Properties::getInt (const std::string & property, int defaultValue)\fC [virtual]\fP"
+.PP
+.SS "std::string log4cpp::Properties::getString (const std::string & property, const char * defaultValue)\fC [virtual]\fP"
+.PP
+.SS "void log4cpp::Properties::load (std::istream & in)\fC [virtual]\fP"
+.PP
+.SS "void log4cpp::Properties::save (std::ostream & out)\fC [virtual]\fP"
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for log4cpp from the source code.

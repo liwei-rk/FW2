@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/gen-cpp
+END
+CacheTubeService_constants.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/gen-cpp/CacheTubeService_constants.cpp
+END
+CacheTubeService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/gen-cpp/CacheTubeService.cpp
+END
+CacheTubeService_constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/gen-cpp/CacheTubeService_constants.h
+END
+CacheTubeService_types.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/gen-cpp/CacheTubeService_types.cpp
+END
+CacheTubeService.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/gen-cpp/CacheTubeService.h
+END
+CacheTubeService_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/yqpt2/!svn/ver/856/backend/cachetube/src/agent/client/gen-cpp/CacheTubeService_types.h
+END
